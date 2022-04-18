@@ -16,9 +16,10 @@ h1
 /* Estilo del header */
 .header{
     background-color: white; 
+    position: sticky;
     top: 0%;
     padding-top: 1px;
-
+   
 }
 /* Estilo de párrafo */
 p
@@ -92,21 +93,6 @@ a{
     padding: 0%;
 }
 
-.mapposition{
-
-display: flex;
-justify-content: flex-end;
-align-items: flex-start;
-padding: 15px;
-margin: 15px;
-}
-
-.flex-list{
-
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
 
 .end-position{
     display: flex;
@@ -116,12 +102,6 @@ margin: 15px;
     padding: 5px;
     margin: 5px;
 }
-.map-container{
-
-    display: flex;
-    justify-content: center;
-}
-
 /* Alineacion de items en el Home */
 .griditem{
 
