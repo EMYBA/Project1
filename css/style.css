@@ -14,7 +14,6 @@ h1 {
 /* Estilo del header */
 .header {
   background-color: white;
-  position: sticky;
   top: 0%;
   padding-top: 1px;
 }
