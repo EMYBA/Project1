@@ -1,0 +1,165 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del Titulo*/
+h1
+{ 
+    color: black;
+    display: flex;
+    justify-content:center;
+
+}
+/* Estilo del header */
+.header{
+    background-color: white; 
+    position: sticky;
+    top: 0%;
+    padding-top: 1px;
+   
+
+}
+/* Estilo de párrafo */
+p
+{   background-color: white;
+    color: black;
+    display: flex ;
+    justify-content: flex-end;
+    margin: 15px;
+    padding: 15px;
+}
+
+/* Estilo de links */
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    margin: 5px;
+    padding: 5px;
+
+}
+/* Estilo de los iconos*/
+.iconstyle{
+
+    display: flex;
+    justify-content: center;
+   
+}
+
+/* Imagen de fondo*/
+.bgimage{
+
+    background-image: url(../Screen/Images/texture3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+
+/* Color de subtitulo*/
+.textcenter{
+       
+        margin-left: auto;
+        margin-right: auto;
+        color: aliceblue;
+}
+    
+.textstyle{
+
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgspace{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+.centerlink{
+
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0%;
+}
+
+.mapposition{
+
+display: flex;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 15px;
+margin: 15px;
+}
+
+.flex-list{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.end-position{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+}
+.map-container{
+
+    display: flex;
+    justify-content: center;
+}
+
+/* Alineacion de items en el Home */
+.griditem{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 350px;
+    text-align: center;
+    justify-items: center;
+    margin: 20px;
+    column-gap: 15px;
+}
+
+.shopgrid-title{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr ;
+    justify-items: center;
+    margin: 20px;
+    padding: 20px;
+
+}
+.shopgrid-product{
+    text-align: center;
+    display: grid;
+    grid-template-rows: 100px 100px;
+    
+    
+}
+
+.image-fit{
+    object-fit: cover;
+}
+.box:hover{
+    background-color: lightgray;
+    border-radius: 5px;
+    transform: scale(1.1, 1.1);
+    transition: all 0.8s;
+    
+}
