@@ -143,23 +143,31 @@ a {
   justify-content: center;
 }
 
-.mapposition {
+.map-container {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-  padding: 15px;
-  margin: 15px;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  grid-template-areas: "flex h2 " "flex mapposition" "flex mapposition";
+  grid-template-columns: 50% 50%;
 }
 
 .flex-list {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.map-container {
-  display: flex;
   justify-content: center;
+  align-items: flex-end;
+  grid-area: flex;
+  padding: 15px;
+  margin: 15px;
+}
+.flex-list .mapposition {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 15px;
+  margin: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
