@@ -1,7 +1,6 @@
 {
   "name": "projecto-nuevo",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,6 @@
   "bugs": {
     "url": "https://github.com/EMYBA/Project1/issues"
   },
-  "homepage": "https://github.com/EMYBA/Project1#readme"
+  "homepage": "https://github.com/EMYBA/Project1#readme",
+  "description": ""
 }
